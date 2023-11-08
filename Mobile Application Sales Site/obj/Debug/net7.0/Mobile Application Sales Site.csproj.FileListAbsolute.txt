@@ -1,0 +1,31 @@
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\appsettings.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\Mobile Application Sales Site.staticwebassets.runtime.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\Mobile Application Sales Site.exe
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\Mobile Application Sales Site.deps.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\Mobile Application Sales Site.runtimeconfig.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\Mobile Application Sales Site.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\Mobile Application Sales Site.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.csproj.AssemblyReference.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.AssemblyInfoInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.AssemblyInfo.cs
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.RazorAssemblyInfo.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.RazorAssemblyInfo.cs
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\staticwebassets\msbuild.Mobile Application Sales Site.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\staticwebassets\msbuild.build.Mobile Application Sales Site.props
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Mobile Application Sales Site.props
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Mobile Application Sales Site.props
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\scopedcss\bundle\Mobile Application Sales Site.styles.css
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\scopedcss\projectbundle\Mobile Application Sales Site.bundle.scp.css
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\refint\Mobile Application Sales Site.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\Mobile Application Sales Site.genruntimeconfig.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\obj\Debug\net7.0\ref\Mobile Application Sales Site.dll

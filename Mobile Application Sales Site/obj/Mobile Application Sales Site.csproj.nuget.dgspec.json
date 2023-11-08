@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\Proje\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj": {}
+    "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\Proje\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj": {
+    "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\Proje\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj",
         "projectName": "Mobile Application Sales Site",
-        "projectPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\Proje\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj",
+        "projectPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\Mobile Application Sales Site.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\Proje\\AnkaX\\Mobile Application Sales Site\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
