@@ -10,12 +10,13 @@ namespace Mobile_Application_Sales_Site.Data
             
         }
         public DbSet<Category> Categories { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "iOSApp", DisplayOrder = 1 },
-                new Category { Id = 2, Name = "AndroidApp", DisplayOrder = 1 }
-
+                new Category { Id = 2, Name = "AndroidApp", DisplayOrder = 2 },
+                new Category { Id = 3, Name = "WebApp", DisplayOrder = 3 }
                 );
         }
     }
