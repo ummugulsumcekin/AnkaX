@@ -6,14 +6,15 @@
             <hr/>
         </div>
         <div class="mb-3">
-            <label>Category Name</label>
-            <input asp-for="Name" class="form-control"
+            <label asp-for="Name">Category Name</label>
+            <input asp-for="Name" class="form-control">
         </div>
 
         <div class="mb-3">
-            <label>Display Order</label>
-            <input type="text" class="form-control"
-        </div> <br />
+            <label asp-for="DisplayOrder" class="p-0">Display Order</label>
+            <input asp-for="DisplayOrder" class="form-control">
+        </div>
+        <br />
         <div class="row">
             <div class="col-6 col-md-3">
                 <button type="submit" class="btn btn-outline-primary form-control">Create</button>

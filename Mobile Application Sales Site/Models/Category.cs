@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 namespace Mobile_Application_Sales_Site.Models
 {
     public class Category
@@ -6,7 +7,9 @@ namespace Mobile_Application_Sales_Site.Models
         [Key]
         public int Id { get; set; }
         [Required]
+        [DisplayName("Category Name")]
         public string Name { get; set; }
+        [DisplayName("Display Order")]
         public int DisplayOrder { get; set; }
     }
 }
