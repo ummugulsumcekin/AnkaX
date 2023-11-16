@@ -42,7 +42,7 @@
                             <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-outline-primary">
                                 <i class="bi bi-pencil-square"></i>Edit
                     </a>
-                            <a asp-controller="Category" asp-action="Delete" class="btn btn-outline-danger">
+                            <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id"  class="btn btn-outline-danger">
                                 <i class="bi bi-trash-fill"></i>Delete
                             </a>
                         
