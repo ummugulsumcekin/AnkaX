@@ -44,19 +44,19 @@ html {
 
 /* Text Color Styles */
 .text-warning {
-    color: #BD7418 !important;
+    color: #CA1929 !important;
 }
 
 .text-secondary {
-    color: #425F4B !important;
+    color: #0a56df !important;
 }
 
 .text-primary {
-    color: #192E2F !important;
+    color: #042348 !important;
 }
 
 .text-success {
-    color: #4b7147 !important;
+    color: #2b5724 !important;
 }
 
 /* Background Color Styles */
@@ -65,16 +65,16 @@ html {
 }
 
 .bg-secondary {
-    background-color: #3A595C !important;
+    background-color: #0a56df !important;
 }
 
 bg-success {
-    background-color: #4b7147 !important;
+    background-color: #2b5724 !important;
 }
 
 /* Card Styles */
 .card {
-    border-color: #425F4B !important;
+    border-color: #134b5f !important;
 }
 
 /* Button Styles */
@@ -85,7 +85,7 @@ bg-success {
 
     .btn-outline-primary:hover {
         color: #fff;
-        background-color: #192E2F;
+        background-color: #042348;
         border-color: #192E2F;
     }
 
@@ -137,25 +137,25 @@ bg-success {
 
 .btn-secondary {
     color: #fff;
-    background-color: #04467f;
-    border-color: #04467f;
+    background-color: #0a56df;
+    border-color: #0a56df;
 }
 
     .btn-secondary:hover {
         color: #fff;
-        background-color: #055c84;
+        background-color: #0a56df;
         border-color: #055c84;
     }
 
 .btn-warning {
     color: #fff;
-    background-color: #BD7418;
-    border-color: #BD7418;
+    background-color: #CA1929;
+    border-color: #CA1929;
 }
 
     .btn-warning:hover {
         color: #fff;
-        background-color: #c6883a;
+        background-color: #C07b24;
         border-color: #c6883a;
     }
 
@@ -166,18 +166,18 @@ bg-success {
 
     .btn-outline-success:hover {
         color: #fff;
-        background-color: #4b7147;
+        background-color: #2b5724;
         border-color: #4b7147;
     }
 
 .btn-success {
     color: #fff;
-    background-color: #4b7147;
-    border-color: #4b7147;
+    background-color: #2b5724;
+    border-color: #2b5724;
 }
 
     .btn-success:hover {
         color: #fff;
         background-color: #578553;
-        border-color: #578553;
+        border-color: #2b5724;
     }
