@@ -1,4 +1,4 @@
-namespace Mobile_Application_Sales_Site.Models
+namespace AnkaX.Models
 {
     public class ErrorViewModel
     {

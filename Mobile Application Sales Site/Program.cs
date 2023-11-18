@@ -1,5 +1,7 @@
+using AnkaX.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
-using Mobile_Application_Sales_Site.Data;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 

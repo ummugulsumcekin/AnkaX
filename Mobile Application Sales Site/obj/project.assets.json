@@ -3853,6 +3853,42 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "AnkaX.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AnkaX.Models": "1.0.0",
+          "AnkaX.Utility": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
+        },
+        "compile": {
+          "bin/placeholder/AnkaX.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnkaX.DataAccess.dll": {}
+        }
+      },
+      "AnkaX.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AnkaX.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnkaX.Models.dll": {}
+        }
+      },
+      "AnkaX.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AnkaX.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnkaX.Utility.dll": {}
+        }
       }
     }
   },
@@ -11199,10 +11235,26 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "AnkaX.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../AnkaX.DataAccess/AnkaX.DataAccess.csproj",
+      "msbuildProject": "../AnkaX.DataAccess/AnkaX.DataAccess.csproj"
+    },
+    "AnkaX.Models/1.0.0": {
+      "type": "project",
+      "path": "../AnkaX.Models/AnkaX.Models.csproj",
+      "msbuildProject": "../AnkaX.Models/AnkaX.Models.csproj"
+    },
+    "AnkaX.Utility/1.0.0": {
+      "type": "project",
+      "path": "../AnkaX.Utility/AnkaX.Utility.csproj",
+      "msbuildProject": "../AnkaX.Utility/AnkaX.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AnkaX.DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
@@ -11242,7 +11294,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.DataAccess\\AnkaX.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.DataAccess\\AnkaX.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

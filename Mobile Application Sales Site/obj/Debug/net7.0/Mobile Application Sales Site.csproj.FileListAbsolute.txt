@@ -251,3 +251,9 @@ C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debu
 C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\AnkaX.DataAccess.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\AnkaX.Models.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\AnkaX.Utility.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\AnkaX.DataAccess.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\AnkaX.Models.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\Mobile Application Sales Site\bin\Debug\net7.0\AnkaX.Utility.pdb

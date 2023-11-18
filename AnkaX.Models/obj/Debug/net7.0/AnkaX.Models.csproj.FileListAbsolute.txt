@@ -1,0 +1,12 @@
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\bin\Debug\net7.0\AnkaX.Models.deps.json
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\bin\Debug\net7.0\AnkaX.Models.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\bin\Debug\net7.0\AnkaX.Models.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\AnkaX.Models.csproj.AssemblyReference.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\AnkaX.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\AnkaX.Models.AssemblyInfoInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\AnkaX.Models.AssemblyInfo.cs
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\AnkaX.Models.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\AnkaX.Models.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\refint\AnkaX.Models.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\AnkaX.Models.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AnkaX\AnkaX.Models\obj\Debug\net7.0\ref\AnkaX.Models.dll

@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Mobile_Application_Sales_Site.Migrations
+namespace AnkaX.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration

@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Mobile_Application_Sales_Site.Models;
+﻿using AnkaX.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace Mobile_Application_Sales_Site.Data
+namespace AnkaX.DataAccess.Data
 {
     public class ApplicationDbContext:DbContext
     {

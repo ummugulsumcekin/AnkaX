@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Mobile_Application_Sales_Site.Data;
-using Mobile_Application_Sales_Site.Models;
+using AnkaX.DataAccess.Data;
+using AnkaX.Models;
 
 namespace Mobile_Application_Sales_Site.Controllers
 {
