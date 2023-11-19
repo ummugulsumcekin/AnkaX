@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using AnkaX.Models;
 using System.Diagnostics;
 
-namespace Mobile_Application_Sales_Site.Controllers
+namespace Mobile_Application_Sales_Site.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
