@@ -2,7 +2,6 @@
 using AnkaX.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -15,27 +14,21 @@ namespace AnkaX.DataAccess.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.13")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
-
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
 
             modelBuilder.Entity("AnkaX.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("DisplayOrder")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -58,7 +51,7 @@ namespace AnkaX.DataAccess.Migrations
                         {
                             Id = 3,
                             DisplayOrder = 3,
-                            Name = "WebApp"
+                            Name = "iOSApp&AndroidApp"
                         });
                 });
 
@@ -66,43 +59,37 @@ namespace AnkaX.DataAccess.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Industry")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Location")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<double>("MonthlyNetProfit")
-                        .HasColumnType("float");
+                        .HasColumnType("REAL");
 
                     b.Property<double>("Price")
-                        .HasColumnType("float");
+                        .HasColumnType("REAL");
 
                     b.Property<string>("Seller")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("SiteAge")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -119,8 +106,7 @@ namespace AnkaX.DataAccess.Migrations
                             Price = 500000.0,
                             Seller = "Pavel Pudau",
                             SiteAge = "2 year",
-                            Title = "Type Now Keyboard Translator",
-                            Type = "iOS App"
+                            Title = "Type Now Keyboard Translator"
                         },
                         new
                         {
@@ -132,8 +118,7 @@ namespace AnkaX.DataAccess.Migrations
                             Price = 400000.0,
                             Seller = "Vladyslav Vanyukhin",
                             SiteAge = "<1 year",
-                            Title = "Astroscope: Astrology & Horoscope App",
-                            Type = "Android & iOS App"
+                            Title = "Astroscope: Astrology & Horoscope App"
                         },
                         new
                         {
@@ -145,8 +130,7 @@ namespace AnkaX.DataAccess.Migrations
                             Price = 249999.0,
                             Seller = "Giacomo Balli",
                             SiteAge = "12 years",
-                            Title = "Cellular Network Signal Finder",
-                            Type = "iOS App"
+                            Title = "Cellular Network Signal Finder"
                         },
                         new
                         {
@@ -158,8 +142,7 @@ namespace AnkaX.DataAccess.Migrations
                             Price = 123500.0,
                             Seller = "Oleg Chrsava",
                             SiteAge = "1,5year",
-                            Title = "Real Thermometer +",
-                            Type = "iOS App"
+                            Title = "Real Thermometer +"
                         },
                         new
                         {
@@ -171,8 +154,7 @@ namespace AnkaX.DataAccess.Migrations
                             Price = 110000.0,
                             Seller = "Mathew Nadeem",
                             SiteAge = "3",
-                            Title = "Clear Spaces",
-                            Type = "iOS App"
+                            Title = "Clear Spaces"
                         },
                         new
                         {
@@ -184,8 +166,7 @@ namespace AnkaX.DataAccess.Migrations
                             Price = 90000.0,
                             Seller = "Giuseppe Indie",
                             SiteAge = "11",
-                            Title = "Mapi Games",
-                            Type = "Android App"
+                            Title = "Mapi Games"
                         });
                 });
 #pragma warning restore 612, 618

@@ -17,7 +17,7 @@ namespace AnkaX.DataAccess.Data
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "iOSApp", DisplayOrder = 1 },
                 new Category { Id = 2, Name = "AndroidApp", DisplayOrder = 2 },
-                new Category { Id = 3, Name = "WebApp", DisplayOrder = 3 }
+                new Category { Id = 3, Name = "iOSApp&AndroidApp", DisplayOrder = 3 }
                 );
             modelBuilder.Entity<Product>().HasData(
 
