@@ -19,13 +19,12 @@ namespace AnkaX.DataAccess.Data
                 new Category { Id = 2, Name = "AndroidApp", DisplayOrder = 2 },
                 new Category { Id = 3, Name = "WebApp", DisplayOrder = 3 }
                 );
-            modelBuilder.Entity<Category>().HasData(
+            modelBuilder.Entity<Product>().HasData(
 
 
 new Product
 {
     Id = 1,
-    Type = "iOS App",
     Title = "Type Now Keyboard Translator",
     Seller = "Pavel Pudau",
     Description = "Type Now is a translator application. We have high positions in the App Store in the US and UK. Traffic is only organic. Sales have not fallen for several years. ",
@@ -40,7 +39,6 @@ new Product
 new Product
 {
     Id = 2,
-    Type = "Android & iOS App",
     Title = "Astroscope: Astrology & Horoscope App",
     Seller = "Vladyslav Vanyukhin",
     Description = "New astrology & horoscope app for Android & iOS in (2023) + 2M followers / Over 113,000 users in half a year / Beautiful design and $0 spent on marketing ",
@@ -55,7 +53,6 @@ new Product
 new Product
 {
     Id = 3,
-    Type = "iOS App",
     Title = "Cellular Network Signal Finder",
     Seller = "Giacomo Balli",
     Description = "Mobile app to find cell towers. Highly profitable, fully automated. Over a decade in business. ",
@@ -70,7 +67,6 @@ new Product
 new Product
 {
     Id = 4,
-    Type = "iOS App",
     Title = "Real Thermometer +",
     Seller = "Oleg Chrsava",
     Description = "Real Thermometer+ is an IOS app that was launched in 2021. The app was created by an experienced team of developers, designers, ASO and marketing specialists. ",
@@ -85,7 +81,6 @@ new Product
 new Product
 {
     Id = 5,
-    Type = "iOS App",
     Title = "Clear Spaces",
     Seller = "Mathew Nadeem",
     Description = "Clear Spaces is the original Transparent Widget app, very profitable with no running costs. Has been in the top charts since release.",
@@ -100,7 +95,6 @@ new Product
 new Product
 {
     Id = 6,
-    Type = "Android App",
     Title = "Mapi Games",
     Seller = "Giuseppe Indie",
     Description = "Bundle of 150+ Published Games",
