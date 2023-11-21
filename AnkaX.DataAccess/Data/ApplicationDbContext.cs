@@ -32,7 +32,8 @@ new Product
     Industry = "Education",
     Location = "United Arab Emirates",
     MonthlyNetProfit = 15733,
-    Price = 500000
+    Price = 500000,
+    CategoryId=1
 
 },
 
@@ -46,7 +47,8 @@ new Product
     Industry = "Astrology",
     Location = "Poland",
     MonthlyNetProfit = 2958,
-    Price = 400000
+    Price = 400000,
+    CategoryId = 3
 
 },
 
@@ -60,7 +62,8 @@ new Product
     Industry = "Technology",
     Location = "United States",
     MonthlyNetProfit = 5941,
-    Price = 249999
+    Price = 249999,
+    CategoryId = 1
 
 },
 
@@ -74,7 +77,8 @@ new Product
     Industry = "Health",
     Location = "Latvia",
     MonthlyNetProfit = 2635,
-    Price = 123500
+    Price = 123500,
+    CategoryId = 1
 
 },
 
@@ -88,8 +92,8 @@ new Product
     Industry = "Design and Style",
     Location = "United Kingdom",
     MonthlyNetProfit = 3244,
-    Price = 110000
-
+    Price = 110000,
+    CategoryId = 2
 },
 
 new Product
@@ -102,8 +106,8 @@ new Product
     Industry = "Game",
     Location = "Italy",
     MonthlyNetProfit = 854,
-    Price = 90000
-
+    Price = 90000,
+    CategoryId = 2
 }
                 );
         }

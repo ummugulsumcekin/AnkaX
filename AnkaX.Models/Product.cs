@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AnkaX.Models
 {
@@ -37,5 +38,9 @@ namespace AnkaX.Models
         [Display(Name = "Price")]
         [Range(1, 1000000)]
         public double Price { get; set; }
+
+        public int CategoryId { get; set; }
+        [ForeignKey("CategoryId")]
+        public  Category Category { get; set; }
     }
 }
