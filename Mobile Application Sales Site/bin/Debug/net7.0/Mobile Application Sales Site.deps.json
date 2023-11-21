@@ -9,6 +9,7 @@
       "Mobile Application Sales Site/1.0.0": {
         "dependencies": {
           "AnkaX.DataAccess": "1.0.0",
+          "AnkaX.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13",

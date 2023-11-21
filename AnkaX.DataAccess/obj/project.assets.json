@@ -572,7 +572,10 @@
         },
         "runtime": {
           "bin/placeholder/AnkaX.Models.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "AnkaX.Utility/1.0.0": {
         "type": "project",

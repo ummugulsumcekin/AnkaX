@@ -141,6 +141,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -242,6 +245,9 @@
             "projectReferences": {
               "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.DataAccess\\AnkaX.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.DataAccess\\AnkaX.DataAccess.csproj"
+              },
+              "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.Models\\AnkaX.Models.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.Models\\AnkaX.Models.csproj"
               }
             }
           }

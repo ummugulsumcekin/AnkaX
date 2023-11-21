@@ -3727,7 +3727,10 @@
         },
         "runtime": {
           "bin/placeholder/AnkaX.Models.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "AnkaX.Utility/1.0.0": {
         "type": "project",
@@ -10716,6 +10719,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AnkaX.DataAccess >= 1.0.0",
+      "AnkaX.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
@@ -10758,6 +10762,9 @@
           "projectReferences": {
             "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.DataAccess\\AnkaX.DataAccess.csproj": {
               "projectPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.DataAccess\\AnkaX.DataAccess.csproj"
+            },
+            "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.Models\\AnkaX.Models.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\AnkaX.Models\\AnkaX.Models.csproj"
             }
           }
         }

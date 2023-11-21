@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AnkaX.DataAccess\AnkaX.DataAccess.csproj" />
+    <ProjectReference Include="..\AnkaX.Models\AnkaX.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>
