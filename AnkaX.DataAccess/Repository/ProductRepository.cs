@@ -20,10 +20,27 @@ namespace AnkaX.DataAccess.Repository
             _db = db;
         }
 
-        
+
         public void Update(Product obj)
+        {
+            var objFromDb = _db.Products.FirstOrDefault(u => u.Id == obj.Id);
+            if (objFromDb != null)
             {
-                _db.Products.Update(obj);
+                objFromDb.Title = obj.Title;
+                objFromDb.MonthlyNetProfit = obj.MonthlyNetProfit;
+                objFromDb.Seller = obj.Seller;
+                objFromDb.Price = obj.Price;
+                objFromDb.Description = obj.Description;
+                objFromDb.SiteAge = obj.SiteAge;
+                objFromDb.Industry = obj.Industry;
+                objFromDb.CategoryId = obj.CategoryId;
+                objFromDb.Location = obj.Location;
+                objFromDb.ImageUrl = obj.ImageUrl;
+                if (obj.ImageUrl != null)
+                {
+                    objFromDb.ImageUrl = obj.ImageUrl;
+                }
             }
+        }
         }
     }
