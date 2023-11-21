@@ -33,7 +33,8 @@ new Product
     Location = "United Arab Emirates",
     MonthlyNetProfit = 15733,
     Price = 500000,
-    CategoryId=1
+    CategoryId=1,
+    ImageUrl=""
 
 },
 
@@ -48,7 +49,8 @@ new Product
     Location = "Poland",
     MonthlyNetProfit = 2958,
     Price = 400000,
-    CategoryId = 3
+    CategoryId = 3,
+    ImageUrl = ""
 
 },
 
@@ -63,7 +65,8 @@ new Product
     Location = "United States",
     MonthlyNetProfit = 5941,
     Price = 249999,
-    CategoryId = 1
+    CategoryId = 1,
+    ImageUrl = ""
 
 },
 
@@ -78,7 +81,8 @@ new Product
     Location = "Latvia",
     MonthlyNetProfit = 2635,
     Price = 123500,
-    CategoryId = 1
+    CategoryId = 1,
+    ImageUrl = ""
 
 },
 
@@ -93,7 +97,8 @@ new Product
     Location = "United Kingdom",
     MonthlyNetProfit = 3244,
     Price = 110000,
-    CategoryId = 2
+    CategoryId = 2,
+    ImageUrl = ""
 },
 
 new Product
@@ -107,7 +112,8 @@ new Product
     Location = "Italy",
     MonthlyNetProfit = 854,
     Price = 90000,
-    CategoryId = 2
+    CategoryId = 2,
+    ImageUrl = ""
 }
                 );
         }
