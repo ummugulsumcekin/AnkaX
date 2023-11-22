@@ -63,8 +63,8 @@ namespace Mobile_Application_Sales_Site.Areas.Admin.Controllers
                 string wwwRootPath= _webHostEnvironment.WebRootPath;
                 if (file != null)
                 {
-                    string fileName = Guid.NewGuid().ToString()+Path.GetExtension(file.FileName);
-                    string productPath = Path.Combine(wwwRootPath, @"images/product");
+                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    string productPath = Path.Combine(wwwRootPath, @"images\product");
 
                     if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
                     {//delete old image
@@ -81,7 +81,7 @@ namespace Mobile_Application_Sales_Site.Areas.Admin.Controllers
                     {
                         file.CopyTo(fileStream);
                     }
-                    productVM.Product.ImageUrl = @"images/product/" + fileName;
+                    productVM.Product.ImageUrl = @"\images\product\" + fileName;
                 }
                 if (productVM.Product.Id==0)
                 {
