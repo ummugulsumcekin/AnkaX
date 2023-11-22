@@ -23,7 +23,7 @@ namespace Mobile_Application_Sales_Site.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            List<Product> objProductList = _unitOfWork.Product.GetAll().ToList();
+            List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties:"Category").ToList();
             
             return View(objProductList);
         }
@@ -64,22 +64,24 @@ namespace Mobile_Application_Sales_Site.Areas.Admin.Controllers
                 if (file != null)
                 {
                     string fileName = Guid.NewGuid().ToString()+Path.GetExtension(file.FileName);
-                    string productPath = Path.Combine(wwwRootPath, @"images\product");
+                    string productPath = Path.Combine(wwwRootPath, @"images/product");
 
                     if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
                     {//delete old image
-                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.TrimStart('\\'));
+                        var oldImagePath = Path.Combine(wwwRootPath, productVM.
+                            Product.ImageUrl.TrimStart('\\'));
                         if (System.IO.File.Exists(oldImagePath))
                         {
                             System.IO.File.Delete(oldImagePath);
                         }
                     }
 
-                    using(var fileStream=new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                    using(var fileStream=new FileStream(Path.Combine(productPath, fileName),
+                        FileMode.Create))
                     {
                         file.CopyTo(fileStream);
                     }
-                    productVM.Product.ImageUrl = @"images\product" + fileName;
+                    productVM.Product.ImageUrl = @"images/product/" + fileName;
                 }
                 if (productVM.Product.Id==0)
                 {

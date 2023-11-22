@@ -27,15 +27,15 @@ namespace AnkaX.DataAccess.Repository
             if (objFromDb != null)
             {
                 objFromDb.Title = obj.Title;
-                objFromDb.MonthlyNetProfit = obj.MonthlyNetProfit;
                 objFromDb.Seller = obj.Seller;
-                objFromDb.Price = obj.Price;
                 objFromDb.Description = obj.Description;
                 objFromDb.SiteAge = obj.SiteAge;
                 objFromDb.Industry = obj.Industry;
                 objFromDb.CategoryId = obj.CategoryId;
                 objFromDb.Location = obj.Location;
-                objFromDb.ImageUrl = obj.ImageUrl;
+                objFromDb.MonthlyNetProfit = obj.MonthlyNetProfit;
+                objFromDb.Price = obj.Price;
+
                 if (obj.ImageUrl != null)
                 {
                     objFromDb.ImageUrl = obj.ImageUrl;
