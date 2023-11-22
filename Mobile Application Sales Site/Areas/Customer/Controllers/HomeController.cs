@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using AnkaX.Models;
 using System.Diagnostics;
+using AnkaX.DataAccess.Repository.IRepository;
+using AnkaX.DataAccess.Repository;
+using System.Globalization;
 
 namespace Mobile_Application_Sales_Site.Areas.Customer.Controllers
 {
@@ -9,15 +12,18 @@ namespace Mobile_Application_Sales_Site.Areas.Customer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
         {
             _logger = logger;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties:"Category");
+            return View(productList);
         }
 
         public IActionResult Privacy()

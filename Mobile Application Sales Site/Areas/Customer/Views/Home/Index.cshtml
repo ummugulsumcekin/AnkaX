@@ -1,8 +1,47 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@using System.Globalization
+@model IEnumerable<Product>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row pb-3">
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-sm-6">
+            <div class="row p-2">
+                <div class="col-12 p-1">
+                    <div class="card border-0 p-3 shadow  border-top border-5 rounded"> 
+                       
+                            <img src="@product.ImageUrl" class="card-img-top rounded" />
+                        
+                        <div class="card-body pb-0">
+                            <div class="pl-1">
+                                <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Title</p>
+                                <p class="card-title text-warning text-center">by <b>@product.SiteAge</b></p>
+                            </div>
+                            <div class="pl-1">
+                                <p class="text-dark text-opacity-75 text-center mb-0">
+                                    MonthlyNetProfit:
+                                    <span class="text-decoration">
+                                        @product.MonthlyNetProfit.ToString("c", new CultureInfo("en-US"))
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="pl-1">
+                                <p class="text-secondary text-75 text-center">
+                                    Asking Price (Classified):
+                                    <span>
+                                        @product.Price.ToString("c", new CultureInfo("en-US"))
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"
+                            class="btn btn-primary bg-gradient border-0 form-control">
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </div>
