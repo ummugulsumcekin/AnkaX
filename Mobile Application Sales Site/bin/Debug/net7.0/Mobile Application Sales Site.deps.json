@@ -11,10 +11,11 @@
           "AnkaX.DataAccess": "1.0.0",
           "AnkaX.Models": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.13",
-          "Microsoft.AspNetCore.Identity.UI": "7.0.12",
+          "Microsoft.AspNetCore.Identity.UI": "7.0.13",
           "Microsoft.EntityFrameworkCore": "7.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11"
         },
@@ -638,15 +639,15 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/7.0.12": {
+      "Microsoft.AspNetCore.Identity.UI/7.0.13": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "7.0.12",
+          "Microsoft.Extensions.FileProviders.Embedded": "7.0.13",
           "Microsoft.Extensions.Identity.Stores": "7.0.13"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Identity.UI.dll": {
-            "assemblyVersion": "7.0.12.0",
-            "fileVersion": "7.0.1223.47922"
+            "assemblyVersion": "7.0.13.0",
+            "fileVersion": "7.0.1323.52007"
           }
         }
       },
@@ -1287,15 +1288,15 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/7.0.12": {
+      "Microsoft.EntityFrameworkCore.SqlServer/7.0.13": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.1.1",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.13"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "7.0.12.0",
-            "fileVersion": "7.0.1223.47811"
+            "assemblyVersion": "7.0.13.0",
+            "fileVersion": "7.0.1323.51806"
           }
         }
       },
@@ -1346,14 +1347,14 @@
           "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/7.0.12": {
+      "Microsoft.Extensions.FileProviders.Embedded/7.0.13": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0"
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.1223.47922"
+            "fileVersion": "7.0.1323.52007"
           }
         }
       },
@@ -2790,6 +2791,7 @@
           "AnkaX.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13"
         },
         "runtime": {
@@ -3206,12 +3208,12 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/7.0.13",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.7.0.13.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.UI/7.0.12": {
+    "Microsoft.AspNetCore.Identity.UI/7.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VA07IqwR3Z6yXDsstLKTqPIuCxO9datuIUTKqzhpj9Lnrih+rtHjJIxvOgqInL2SqbMqh2amMkdwrwLGTqVYzA==",
-      "path": "microsoft.aspnetcore.identity.ui/7.0.12",
-      "hashPath": "microsoft.aspnetcore.identity.ui.7.0.12.nupkg.sha512"
+      "sha512": "sha512-7KkDLfMW5Aq5WsE0mk2JU9gswb8BjtmRsnm8Zgmc+rMmxjMw1HWf3wPYwxSPlhfId2JmM0Eg0oLWA40+TjQWyQ==",
+      "path": "microsoft.aspnetcore.identity.ui/7.0.13",
+      "hashPath": "microsoft.aspnetcore.identity.ui.7.0.13.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.11": {
       "type": "package",
@@ -3409,12 +3411,12 @@
       "path": "microsoft.entityframeworkcore.sqlite.core/7.0.13",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.7.0.13.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/7.0.12": {
+    "Microsoft.EntityFrameworkCore.SqlServer/7.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jwh9C/RzCZPTYNL5YOvxUJDfzRtrpbWl5qLWYRBxeYTKDRRH9n2vWCV+s2URGfOKCufZEx1wrlFSEZ2TJPb4Gw==",
-      "path": "microsoft.entityframeworkcore.sqlserver/7.0.12",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.12.nupkg.sha512"
+      "sha512": "sha512-86lPGt6HpkUgL+FHnu1nPmBmwvuBRqtYZPgj+sIhsF2OqRWOeQiXUjy3pspNgl1CK5goK5icjBAIlrl3LkMFuw==",
+      "path": "microsoft.entityframeworkcore.sqlserver/7.0.13",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
       "type": "package",
@@ -3472,12 +3474,12 @@
       "path": "microsoft.extensions.fileproviders.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Embedded/7.0.12": {
+    "Microsoft.Extensions.FileProviders.Embedded/7.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Af3M929S/v2NIBfYxRAp+muDKm3nn6KLbtFuFRm0Q6yZKIC/lQovmUHL5c7sycbMjo/gpmR+6w5IcLS/FEm+pw==",
-      "path": "microsoft.extensions.fileproviders.embedded/7.0.12",
-      "hashPath": "microsoft.extensions.fileproviders.embedded.7.0.12.nupkg.sha512"
+      "sha512": "sha512-X5jGJ2kSQO6d5fjjC3EdJ6AQp33b+SGG7tjZ68cc7vURs+peIXrsN0Lk4D0JsZThAy5PZirZNqMNUU9B7tXebw==",
+      "path": "microsoft.extensions.fileproviders.embedded/7.0.13",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.7.0.13.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/7.0.13": {
       "type": "package",

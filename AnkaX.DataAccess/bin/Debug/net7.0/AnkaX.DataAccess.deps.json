@@ -12,6 +12,7 @@
           "AnkaX.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13"
         },
