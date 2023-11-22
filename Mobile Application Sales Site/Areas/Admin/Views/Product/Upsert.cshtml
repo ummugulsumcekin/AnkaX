@@ -61,8 +61,8 @@
                         <select asp-for="@Model.Product.CategoryId" asp-items="@Model.CategoryList" class="form-select border-0 shadow-sm">
                             <option disabled selected>--Selected Category</option>
                         </select>
-                        <label asp-for="Product.CategoryId" class="ms-2"></label>
-                        <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+                        <label asp-for="Product.Category" class="ms-2"></label>
+                        <span asp-validation-for="Product.Category" class="text-danger"></span>
                     </div>
                     <div class="form-floating py-2 col-12 d-flex align-items-center">
                         <input type="file" name="file" class="form-control border-0 shadow-sm">

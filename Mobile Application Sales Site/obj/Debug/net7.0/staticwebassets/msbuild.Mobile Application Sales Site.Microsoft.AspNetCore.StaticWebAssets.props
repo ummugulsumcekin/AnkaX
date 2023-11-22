@@ -32,12 +32,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\31fdc608-db84-4d60-afca-e28035e808b4.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\56fc55b3-4ac9-49e8-be2e-035851b703bf.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mobile Application Sales Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mobile Application Sales Site</BasePath>
-      <RelativePath>images/product/31fdc608-db84-4d60-afca-e28035e808b4.png</RelativePath>
+      <RelativePath>images/product/56fc55b3-4ac9-49e8-be2e-035851b703bf.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\31fdc608-db84-4d60-afca-e28035e808b4.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\56fc55b3-4ac9-49e8-be2e-035851b703bf.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\41681fbd-01d5-46cd-95b5-9f79e9934945.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\74a64766-3bd8-48a1-88ec-b4ce5882d5d9.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mobile Application Sales Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mobile Application Sales Site</BasePath>
-      <RelativePath>images/product/41681fbd-01d5-46cd-95b5-9f79e9934945.png</RelativePath>
+      <RelativePath>images/product/74a64766-3bd8-48a1-88ec-b4ce5882d5d9.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,14 +62,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\41681fbd-01d5-46cd-95b5-9f79e9934945.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\74a64766-3bd8-48a1-88ec-b4ce5882d5d9.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\46d08789-d707-4376-87af-5a50dba9d955.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\973d5110-8e48-4b34-8747-40cf64e0bdd6.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mobile Application Sales Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mobile Application Sales Site</BasePath>
-      <RelativePath>images/product/46d08789-d707-4376-87af-5a50dba9d955.png</RelativePath>
+      <RelativePath>images/product/973d5110-8e48-4b34-8747-40cf64e0bdd6.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,14 +78,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\46d08789-d707-4376-87af-5a50dba9d955.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\973d5110-8e48-4b34-8747-40cf64e0bdd6.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\9ae078ff-f985-4a5d-9cea-cf5d34c77804.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\acde9da4-40e5-4fc1-a2c5-2697af1e6000.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mobile Application Sales Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mobile Application Sales Site</BasePath>
-      <RelativePath>images/product/9ae078ff-f985-4a5d-9cea-cf5d34c77804.png</RelativePath>
+      <RelativePath>images/product/acde9da4-40e5-4fc1-a2c5-2697af1e6000.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -94,14 +94,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\9ae078ff-f985-4a5d-9cea-cf5d34c77804.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\acde9da4-40e5-4fc1-a2c5-2697af1e6000.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\bb5b7d6d-ad9a-4678-9e7b-589c364edb61.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\b4546b95-a1a9-4fe3-9bdb-192732cd9cd0.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mobile Application Sales Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mobile Application Sales Site</BasePath>
-      <RelativePath>images/product/bb5b7d6d-ad9a-4678-9e7b-589c364edb61.png</RelativePath>
+      <RelativePath>images/product/b4546b95-a1a9-4fe3-9bdb-192732cd9cd0.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -110,14 +110,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\bb5b7d6d-ad9a-4678-9e7b-589c364edb61.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\b4546b95-a1a9-4fe3-9bdb-192732cd9cd0.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\c6d21164-fecc-4748-95a2-42974535958e.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\b908d9bf-0f11-41d1-87be-f6680405a54f.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mobile Application Sales Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mobile Application Sales Site</BasePath>
-      <RelativePath>images/product/c6d21164-fecc-4748-95a2-42974535958e.png</RelativePath>
+      <RelativePath>images/product/b908d9bf-0f11-41d1-87be-f6680405a54f.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -126,14 +126,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\c6d21164-fecc-4748-95a2-42974535958e.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\b908d9bf-0f11-41d1-87be-f6680405a54f.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\dd82130b-a323-4e32-aba8-bff94dde4706.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\d5d5c621-458f-459b-b955-aa4cb4c082c6.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mobile Application Sales Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mobile Application Sales Site</BasePath>
-      <RelativePath>images/product/dd82130b-a323-4e32-aba8-bff94dde4706.png</RelativePath>
+      <RelativePath>images/product/d5d5c621-458f-459b-b955-aa4cb4c082c6.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -142,7 +142,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\dd82130b-a323-4e32-aba8-bff94dde4706.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\product\d5d5c621-458f-459b-b955-aa4cb4c082c6.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>
