@@ -25,8 +25,20 @@
       "PackagePath": "staticwebassets\\images\\product\\973d5110-8e48-4b34-8747-40cf64e0bdd6.png"
     },
     {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\Home (1).png",
+      "PackagePath": "staticwebassets\\images\\product\\Home (1).png"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\acde9da4-40e5-4fc1-a2c5-2697af1e6000.png",
       "PackagePath": "staticwebassets\\images\\product\\acde9da4-40e5-4fc1-a2c5-2697af1e6000.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\ankaXLogo.png",
+      "PackagePath": "staticwebassets\\images\\product\\ankaXLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\ankax.png",
+      "PackagePath": "staticwebassets\\images\\product\\ankax.png"
     },
     {
       "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\b4546b95-a1a9-4fe3-9bdb-192732cd9cd0.png",
@@ -39,6 +51,14 @@
     {
       "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\d5d5c621-458f-459b-b955-aa4cb4c082c6.png",
       "PackagePath": "staticwebassets\\images\\product\\d5d5c621-458f-459b-b955-aa4cb4c082c6.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\dataAnkaX.png",
+      "PackagePath": "staticwebassets\\images\\product\\dataAnkaX.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\launching.png",
+      "PackagePath": "staticwebassets\\images\\product\\launching.png"
     },
     {
       "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\js\\product.js",
