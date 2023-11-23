@@ -34,4 +34,8 @@
     <ProjectReference Include="..\AnkaX.Models\AnkaX.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Data\" />
+  </ItemGroup>
+
 </Project>
