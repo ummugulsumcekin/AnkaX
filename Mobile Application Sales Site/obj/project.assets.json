@@ -4266,6 +4266,9 @@
       "AnkaX.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.13"
+        },
         "compile": {
           "bin/placeholder/AnkaX.Utility.dll": {}
         },
