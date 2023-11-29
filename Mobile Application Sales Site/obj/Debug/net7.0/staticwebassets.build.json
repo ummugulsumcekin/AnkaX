@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KHVpuBNC0V2jDzOYtu/lStvu0Qp66Q1qRdNQJj7KBfs=",
+  "Hash": "kGXS/+tCYutQplQ3PYgAdflMByQyjUf1f2EBkVEGeSo=",
   "Source": "Mobile Application Sales Site",
   "BasePath": "_content/Mobile Application Sales Site",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\ankaXLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\ankaXLogo2.png",
+      "SourceId": "Mobile Application Sales Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\",
+      "BasePath": "_content/Mobile Application Sales Site",
+      "RelativePath": "images/product/ankaXLogo2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\ankaXLogo2.png"
     },
     {
       "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\images\\product\\b4546b95-a1a9-4fe3-9bdb-192732cd9cd0.png",

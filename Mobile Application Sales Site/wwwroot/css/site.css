@@ -23,7 +23,14 @@ a.navbar-brand {
     background-color: #04376b;
     border-color: #1861ac;
 }
+.navbar-brand img {
+    border-radius: 50%;
+    border: 2px solid #fff; /* You can adjust the border color as needed */
+}
 
+.navbar {
+    background-color: #007bff; /* Change this to your desired navbar color */
+}
 /* General Styles */
 
 html {
