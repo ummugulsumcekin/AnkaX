@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\images\\product\\launching.png"
     },
     {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

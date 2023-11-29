@@ -3,6 +3,7 @@ using System;
 using AnkaX.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnkaX.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231129204018_addCompanyTable")]
+    partial class addCompanyTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
@@ -220,38 +223,6 @@ namespace AnkaX.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Companies");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            City = "New Mexico",
-                            Name = "AppBusinessBrokers Tech Solution",
-                            PhoneNumber = "6669990000",
-                            PostalCode = "12121",
-                            State = "Mexico",
-                            StreetAddress = "123 Tech St"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            City = "Manhattan",
-                            Name = "Fih.com",
-                            PhoneNumber = "7779990000",
-                            PostalCode = "10014",
-                            State = "United States",
-                            StreetAddress = "30 Cornelia Street New York, NY"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            City = "London",
-                            Name = "AI Club",
-                            PhoneNumber = "1113335555",
-                            PostalCode = "99999",
-                            State = "UK",
-                            StreetAddress = "999 Main St"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

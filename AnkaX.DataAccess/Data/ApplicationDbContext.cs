@@ -1,8 +1,9 @@
 ﻿ using AnkaX.Models;
+using AnkaX.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+
 
 namespace AnkaX.DataAccess.Data
 {
@@ -15,6 +16,7 @@ namespace AnkaX.DataAccess.Data
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Company> Companies { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,8 +26,41 @@ namespace AnkaX.DataAccess.Data
                 new Category { Id = 2, Name = "AndroidApp", DisplayOrder = 2 },
                 new Category { Id = 3, Name = "iOSApp&AndroidApp", DisplayOrder = 3 }
                 );
-            modelBuilder.Entity<Product>().HasData(
+            modelBuilder.Entity<Company>().HasData(
+                new Company
+                {
+                    Id = 1,
+                    Name = "AppBusinessBrokers Tech Solution",
+                    StreetAddress = "123 Tech St",
+                    City = "New Mexico",
+                    PostalCode = "12121",
+                    State = "Mexico",
+                    PhoneNumber = "6669990000"
+                },
+                new Company
+                {
+                    Id = 2,
+                    Name = "Fih.com",
+                    StreetAddress = "30 Cornelia Street New York, NY",
+                    City = "Manhattan",
+                    PostalCode = "10014",
+                    State = "United States",
+                    PhoneNumber = "7779990000"
+                },
+                new Company
+                {
+                    Id = 3,
+                    Name = "AI Club",
+                    StreetAddress = "999 Main St",
+                    City = "London",
+                    PostalCode = "99999",
+                    State = "UK",
+                    PhoneNumber = "1113335555"
+                }
+                );
 
+
+            modelBuilder.Entity<Product>().HasData(
 
 new Product
 {

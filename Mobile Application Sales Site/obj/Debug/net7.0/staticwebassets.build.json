@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ObjW1jPzKgKB/jJgb9paygCCHQcq6Fr5CQOB3NpuOEc=",
+  "Hash": "KHVpuBNC0V2jDzOYtu/lStvu0Qp66Q1qRdNQJj7KBfs=",
   "Source": "Mobile Application Sales Site",
   "BasePath": "_content/Mobile Application Sales Site",
   "Mode": "Default",
@@ -1307,6 +1307,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\launching.png"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\js\\company.js",
+      "SourceId": "Mobile Application Sales Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\",
+      "BasePath": "_content/Mobile Application Sales Site",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\company.js"
     },
     {
       "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AnkaX\\Mobile Application Sales Site\\wwwroot\\js\\product.js",
