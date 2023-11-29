@@ -10,7 +10,7 @@ using AnkaX.Models.ViewModels;
 namespace Mobile_Application_Sales_Site.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[Authorize(Roles = SD.Role_Admin)]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CompanyController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
