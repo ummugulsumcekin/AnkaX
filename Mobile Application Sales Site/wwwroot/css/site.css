@@ -1,4 +1,15 @@
-    /* Navbar Brand Styles */
+.divider-text:before, 
+.divider-text:after {
+    color: white;
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #555;
+    margin: auto 0.25rem;
+    box-shadow: 0 -2px;
+}
+
+
+/* Navbar Brand Styles */
 a.navbar-brand {
     white-space: normal;
     text-align: center;
