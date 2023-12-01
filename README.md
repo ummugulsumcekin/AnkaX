@@ -50,6 +50,17 @@ This repository contains the source code and documentation for the ANKAX project
 - HTML/CSS
 - JavaScript
 
+## Getting Started
+
+To explore the ANKAX project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ummugulsumcekin/AnkaX.git
+
+2.  Set up your development environment. Refer to ASP.NET Core documentation for detailed instructions.
+
 ## Configuration
 
 The project configuration involves the following key areas:
