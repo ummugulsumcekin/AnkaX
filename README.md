@@ -6,7 +6,7 @@ Website is filled with advanced concepts where customers can view the Apps(Andro
 ## Project Overview
 ANKAX is an ASP.NET Core web application that incorporates various fundamental concepts and technologies related to web development. The project structure is designed to showcase best practices and commonly used patterns in ASP.NET Core development.
 
-# ANKAX Project
+# AnkaX Project
 
 This repository contains the source code and documentation for the ANKAX project, a web application built with ASP.NET Core. The project covers various aspects of ASP.NET Core development, including MVC, Identity Framework, Entity Framework, Bootstrap v5, and more.
 
