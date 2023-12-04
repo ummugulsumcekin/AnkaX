@@ -11,21 +11,21 @@ namespace AnkaX.Models
 {
     public class ShoppingCart
     {
-        //public int Id { get; set; }
+        public int Id { get; set; }
 
-        //public int ProductId { get; set; }
-        //[ForeignKey("ProductId")]
-        //[ValidateNever]
-        //public Product Product { get; set; }
-        //[Range(1, 1000000, ErrorMessage = "Please enter a value between 1 and 1000000")]
-        //public int Count { get; set; }
+        public int ProductId { get; set; }
+        [ForeignKey("ProductId")]
+        [ValidateNever]
+        public Product Product { get; set; }
+        [Range(1, 1000000, ErrorMessage = "Please enter a value between 1 and 1000000")]
+        public int Count { get; set; }
 
-        //public string ApplicationUserId { get; set; }
-        //[ForeignKey("ApplicationUserId")]
-        //[ValidateNever]
-        //public ApplicationUser ApplicationUser { get; set; }
+        public string ApplicationUserId { get; set; }
+        [ForeignKey("ApplicationUserId")]
+        [ValidateNever]
+        public ApplicationUser ApplicationUser { get; set; }
 
         //[NotMapped]
-        //public double Price { get; set; }
+       // public double Price { get; set; }
     }
 }
