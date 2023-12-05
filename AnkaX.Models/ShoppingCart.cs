@@ -18,7 +18,7 @@ namespace AnkaX.Models
         [ValidateNever]
         public Product Product { get; set; }
         [Range(1, 1000000, ErrorMessage = "Please enter a value between 1 and 1000000")]
-        public int Count { get; set; }
+        public int ProposedPrice { get; set; }
 
         public string ApplicationUserId { get; set; }
         [ForeignKey("ApplicationUserId")]

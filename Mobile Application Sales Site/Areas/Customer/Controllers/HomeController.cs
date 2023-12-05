@@ -5,6 +5,9 @@ using System.Diagnostics;
 using AnkaX.DataAccess.Repository.IRepository;
 using AnkaX.DataAccess.Repository;
 using System.Globalization;
+using Microsoft.AspNetCore.Authorization;
+using AnkaX.Utility;
+using System.Security.Claims;
 
 namespace Mobile_Application_Sales_Site.Areas.Customer.Controllers
 {
@@ -27,10 +30,49 @@ namespace Mobile_Application_Sales_Site.Areas.Customer.Controllers
         }
         public IActionResult Details(int productId)
         {
-            Product product  = _unitOfWork.Product.Get(u=>u.Id== productId, includeProperties: "Category");
-            return View(product);
+            ShoppingCart cart = new()
+            {
+                Product = _unitOfWork.Product.Get(u => u.Id == productId, includeProperties: "Category"),
+                ProposedPrice = 10000,
+                ProductId = productId
+            };
+                
+                
+            return View(cart);
         }
+        [HttpPost]
+        [Authorize]
+        public IActionResult Details(ShoppingCart shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+            shoppingCart.ApplicationUserId = userId;
 
+            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId &&
+            u.ProductId == shoppingCart.ProductId);
+
+            if (cartFromDb != null)
+            {
+                //shopping cart exists
+                cartFromDb.ProposedPrice += shoppingCart.ProposedPrice;
+                _unitOfWork.ShoppingCart.Update(cartFromDb);
+                _unitOfWork.Save();
+            }
+            else
+            {
+                //add cart record
+                _unitOfWork.ShoppingCart.Add(shoppingCart);
+                _unitOfWork.Save();
+                //HttpContext.Session.SetInt32(SD.SessionCart,
+                //_unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
+            }
+            TempData["success"] = "Cart updated successfully";
+
+
+
+
+            return RedirectToAction(nameof(Index));
+        }
         public IActionResult Privacy()
         {
             return View();
