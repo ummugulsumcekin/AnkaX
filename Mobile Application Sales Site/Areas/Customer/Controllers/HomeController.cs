@@ -33,7 +33,7 @@ namespace Mobile_Application_Sales_Site.Areas.Customer.Controllers
             ShoppingCart cart = new()
             {
                 Product = _unitOfWork.Product.Get(u => u.Id == productId, includeProperties: "Category"),
-                ProposedPrice = 10000,
+                Count = 1,
                 ProductId = productId
             };
                 
@@ -54,20 +54,19 @@ namespace Mobile_Application_Sales_Site.Areas.Customer.Controllers
             if (cartFromDb != null)
             {
                 //shopping cart exists
-                cartFromDb.ProposedPrice += shoppingCart.ProposedPrice;
+                cartFromDb.Count += shoppingCart.Count;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);
-                _unitOfWork.Save();
+                
             }
             else
             {
                 //add cart record
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
-                _unitOfWork.Save();
-                HttpContext.Session.SetInt32(SD.SessionCart,
-                _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
+               
+               
             }
             TempData["success"] = "Cart updated successfully";
-
+            _unitOfWork.Save();
 
 
 
